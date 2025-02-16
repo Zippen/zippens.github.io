@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Sports Streaming</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>AIK Live Streaming</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Live</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="live-stream">
+            <h2>Watch Live</h2>
+                <video id="liveVideo" controls>
+                    <source src="http://livego.club:8080/live/q69ZmEUqmqRc/nWe6PT4R4y6q/27930.m3u8" type="application/x-mpegURL">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </section>
+        <section id="schedule">
+            <h2>Upcoming Events</h2>
+            <ul id="eventList">
+                <!-- Event items will be injected here by JavaScript -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Live Sports Streaming. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
