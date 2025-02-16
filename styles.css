@@ -1,5 +1,5 @@
 body {
-	background-image: url("https://www.aikfotboll.se/images/three-up-black.jpg");
+    background-image: url("https://www.aikfotboll.se/images/three-up-black.jpg");
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -46,17 +46,18 @@ main {
 }
 
 video {
-    width: 80%;
-	max-width: 800px;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 #schedule ul {
+    background-color: #e5eb34;
     list-style: none;
     padding: 0;
 }
 
 #schedule ul li {
-    background-color: #f4f4f4;
+    background-color: #e5eb34;
     margin: 0.5rem 0;
     padding: 1rem;
     border: 1px solid #ddd;
